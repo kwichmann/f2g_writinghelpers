@@ -41,6 +41,28 @@ function makeTitle() {
         " " +
         capitalize(RiTa.randomWord("vb"));
       break;
+    case "prepositionNoun":
+      title =
+        capitalize(RiTa.randomWord("in")) +
+        " " +
+        capitalize(RiTa.randomWord("prp$")) +
+        " " +
+        capitalize(RiTa.randomWord("nn"));
+      break;
+    case "pastParticiple":
+      title =
+        capitalize(RiTa.randomWord("vbn")) +
+        " " +
+        capitalize(RiTa.randomWord("in")) +
+        " " +
+        capitalize(RiTa.randomWord("nn"));
+      break;
+    case "adverbGerund":
+      title =
+        capitalize(RiTa.randomWord("rb")) +
+        " " +
+        capitalize(RiTa.randomWord("vbg"));
+      break;
   }
 
   document.querySelector("#title").innerHTML = "<em>" + title + "</em>";
