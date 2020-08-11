@@ -16,3 +16,11 @@ body::after {
   position: absolute;
   z-index: -1;
 }
+
+#title {
+  text-align: center;
+}
+
+#rita {
+  text-align: right;
+}

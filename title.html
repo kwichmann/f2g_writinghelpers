@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>fail2guitar - Title generator</title>
+
+    <script src="lib/rita-full.min.js"></script>
+    <script src="js/title.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+    <h1>Title generator</h1>
+    <form>
+        <input type="radio" id="nounNoun" name="titleType" value="nounNoun" checked>
+        <label for="nounNoun">Noun + noun</label><br>
+        <input type="radio" id="adjectiveNoun" name="titleType" value="adjectiveNoun">
+        <label for="adjectiveNoun">Adjective + noun</label><br>
+        <input type="radio" id="verbNoun" name="titleType" value="verbNoun">
+        <label for="verbNoun">Verb the noun</label><br>
+    </form>
+
+    <p>
+        <button type="button" onclick="makeTitle()">Generate title</button>
+    </p>
+    
+    <h1 id="title"></h1>
+
+    <p id="rita">
+        - Powered by <a href="https://rednoise.org/rita/index.php">RiTa.js
+    </p>
+</body>
+
+</html>
