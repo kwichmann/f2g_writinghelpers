@@ -27,6 +27,20 @@ function makeTitle() {
         " the " +
         capitalize(RiTa.randomWord("nn"));
       break;
+    case "possessiveNoun":
+      title =
+        capitalize(RiTa.randomWord("prp$")) +
+        " " +
+        capitalize(RiTa.randomWord("nn"));
+      break;
+    case "personalModalVerb":
+      title =
+        capitalize(RiTa.randomWord("prp")) +
+        " " +
+        capitalize(RiTa.randomWord("md")) +
+        " " +
+        capitalize(RiTa.randomWord("vb"));
+      break;
   }
 
   document.querySelector("#title").innerHTML = "<em>" + title + "</em>";
