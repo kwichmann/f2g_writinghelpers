@@ -17,10 +17,15 @@ body::after {
   z-index: -1;
 }
 
+li {
+  margin: 4px;
+}
+
 #title {
   text-align: center;
 }
 
 #rita {
   text-align: right;
+  font-size: small;
 }
