@@ -5,9 +5,10 @@ body {
 
 body::after {
   content: "";
-  background: url(../pics/f2d_logo.jpg);
+  background: url(../pics/f2d_logo2.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 50%;
   opacity: 0.1;
   top: 0;
   left: 0;
